@@ -78,11 +78,11 @@ print(f"\nSet A: {set_A}")
 print(f"Set B: {set_B}")
 
 # A. Merging Sets (Union)
-print(f"Merged Sets (Union):            {set_A.union(set_B)}")
+print(f"Merged Sets (Union): {set_A.union(set_B)}")
 
 # B. Common Elements (Intersection)
 print(f"Common Elements (Intersection): {set_A.intersection(set_B)}")
 
 # C. Unique Elements (Difference & Symmetric Difference)
-print(f"Unique to Set A:                {set_A.difference(set_B)}")
-print(f"Unique to either set:           {set_A.symmetric_difference(set_B)}")
+print(f"Unique to Set A: {set_A.difference(set_B)}")
+print(f"Unique to either set: {set_A.symmetric_difference(set_B)}")
